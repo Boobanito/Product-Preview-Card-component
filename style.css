@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+
+}
+
+body {
+    padding: 0px;
+    margin : 0px
+}
+
+#centerbox {
+    height: 450px;
+    width: 1230px;
+    background: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+
+#filter {
+    align-content: center;
+    position: relative;
+    height: 100%;
+    width: 50% ;
+    top: 0%;
+    left: 50%; 
+    background-color:hsl(277, 64%, 61%);
+    border-radius: 0px 10px 10px 0px;
+    
+    
+}
+  
+#Photo1 {
+    position: relative;
+    height: 100%;
+    width: 100% ;
+    filter: opacity(50%) contrast(160%);
+    border-radius: 0px 15px 15px 0px;
+    
+}
+
+h1 {
+    margin-left: 8%;
+    text-align: justify;
+    position: relative;
+    margin-top: -32%;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+
+}
+
+#insights {
+    color: hsl(277, 64%, 61%);
+}
+
+#description {
+    position: relative;
+    margin-left: 8%;
+    color: rgb(167, 166, 166);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px ;
+}
+
+#stats {
+    width: 33%;
+    display: flex;
+    justify-content: space-between ;
+    position: relative;
+    margin-left: 8%;
+    margin-top: 30px;
+    
+}
+
+#stat1 {
+    text-justify: auto;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.statsec {
+    color: rgb(167, 166, 166);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#stat2 {
+    text-justify: auto;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+#stat3 {
+    text-justify: auto;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
